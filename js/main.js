@@ -1,0 +1,1 @@
+!function(){var __webpack_modules__={"./src/js/js.js":function(){eval("\n\n//# sourceURL=webpack://building-gulp-v1.0/./src/js/js.js?")}},__webpack_exports__={};__webpack_modules__["./src/js/js.js"]()}();

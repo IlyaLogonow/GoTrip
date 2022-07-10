@@ -1,0 +1,50 @@
+.header__wrapper {
+    position: absolute;
+    top: 57px;
+    min-width: 1240px;
+    min-height: 49px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav {
+    .main-nav__list {
+        display: flex;
+
+        .main-nav__item:not(:last-child){
+            margin-right: 80px;
+        }
+
+        .main-nav__link {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #FFFFFF;    
+        }
+    }
+}
+
+.personal-area {
+    display: flex;
+    align-items: center;
+
+    .personal-area__link:not(:last-child) {
+        margin-right: 25px;
+    }
+    .personal-area__link {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .personal-area__link-login {
+        background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+        border-radius: 100px;
+
+        padding: 13px 43px;
+    }
+}
